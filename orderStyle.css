@@ -200,4 +200,7 @@ audio::-webkit-media-controls-play-button:active{
   .titleBar{
     width: 400px;
   }
+  .orderProduct{
+    width: 300px;
+  }
 }
