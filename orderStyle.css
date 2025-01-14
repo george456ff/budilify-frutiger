@@ -198,6 +198,6 @@ audio::-webkit-media-controls-play-button:active{
 
 @media (max-width: 1000px){
   .titleBar{
-    width: 400px;
+    margin: 5px;
   }
 }
