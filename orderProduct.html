@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Budilify - Order Product</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="orderStyle.css">
+        <link rel="icon" href="favicon.png">
+    </head>
+    <header>
+        <a href="index.html" id="logoLink"><img src="logo.png" id="logo"></a>
+        <a href="index.html"><button id="btn">HOME</button></a>
+        <a href="index.html#about"><button id="btn">ABOUT</button></a>
+        <a href="index.html#howToUpload"><button id="btn">HOW TO UPLOAD</button></a>
+        <a href="index.html#contact"><button id="btn">CONTACT</button></a>
+    </header>
+    <body>
+        <button onclick="topFunction()" id="myBtn" title="Go to top" style="font-size: 28px">&#8682;</button>
+        <div class="orderDiv">
+            <h1 id="orderTitle"><span class="test">ORDER YOUR PRODUCT</span></h1>
+            <div class="titleBar">
+                <input type="button" onclick="alert('Just a button... It serves no purpose.')" id="closeBtn" value="X">
+            </div>
+            <form class="orderProduct">
+                <label>Name:</label>
+                <input type="text" id="textInput" value="Your Name...">
+                <label>Email:</label>
+                <input type="text" id="textInput" value="Your Email...">
+                <label>Select your order:</label>
+                <div>
+                    <input type="checkbox">
+                    <label>Budilify&trade; Alarm Clock (10€)</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label>Pocket T&amp;H Sensor (5€)</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label>Plants Watering Reminder (5€)</label>
+                </div>
+                <input type="button" onclick="alert('You will receive an email regarding your order.')" id="submitBtn" value="Submit order">
+            </form>
+            <div class="audio">
+                <audio controls>
+                    <source src="lease.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="audio">
+                <audio controls>
+                    <source src="wii.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="audio">
+                <audio controls>
+                    <source src="LotusWaters.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+        <script src="backToTop.js"></script>
+    </body>
+    <footer>
+        <p>
+            Copyright © 2024 Budilify<br>
+            All rights reserved.
+        </p>
+    </footer>
+</html>

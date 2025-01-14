@@ -1,0 +1,262 @@
+::selection{
+    color: white;
+    background-color: blue;
+}
+
+html, body, footer {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#logo {
+    width: 60px;
+    margin: 10px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 5px black;
+    transition: all 0.3s ease;
+}
+
+#logo:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 8px #38b6ff;
+    transform: translateY(-5px);
+}
+
+#logoLink{
+    margin-right: auto;
+}
+
+#btn {
+    color: white;
+    background-image: linear-gradient(#38b6ff, #88d1fc, #107cbb);
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    border: 1px solid white;
+    box-shadow: 0 0 3px black;
+    border-radius: 5px;
+    position: relative;
+    top: 20%;
+    transition: all 0.3s ease;
+}
+
+#btn:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 16px #38b6ff;
+    background-image: linear-gradient(#88d1fc, #107cbb, #38b6ff);
+}
+
+#btn:active {
+    background-image: linear-gradient(#38b6ff, #107cbb);
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: 1px solid white;
+    outline: none;
+    background-image: linear-gradient(#88d1fc, #107cbb, #38b6ff);
+    box-shadow: 0 0 5px black;
+    color: #EEEEEE;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 100%;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  #myBtn:hover {
+    color: white;
+    background-image: linear-gradient(#107cbb, #107cbb, #38b6ff);
+    transform: scale(1.05);
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px #38b6ff;
+  }
+  
+  #myBtn:active {
+    color: black;
+    background-image: linear-gradient(#38b6ff, #107cbb);
+    box-shadow: 0 0 10px white;
+  }  
+
+.heading {
+    padding: 250px;
+    background-image: url("headingImage.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 130%;
+    text-align: center;
+}
+
+#headingTitle {
+    padding: 20px;
+    color: white;
+    font-size: 48px;
+    border-radius: 50px;
+    border: 1px solid white;
+    box-shadow: 0 0 8px black;
+    text-shadow: 3px 3px 3px black;
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.6), rgba(16, 124, 187, 0.8));
+}
+
+.about {
+    padding: 250px;
+    background-image: url("aboutImage.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#about {
+    padding: 20px;
+    color: white;
+    font-size: 32px;
+    border-radius: 50px;
+    border: 1px solid white;
+    box-shadow: 0 0 8px black;
+    text-shadow: 3px 3px 3px black;
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.6), rgba(16, 124, 187, 0.8));
+}
+
+#aboutFlexDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutTitle{
+    text-align: center;
+}
+
+#aboutText {
+    margin-right: 50px;
+    max-width: 400px;
+    text-align: left;
+}
+
+#logoAbout {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 8px white;
+    margin-top: 20px;
+}
+
+.howToUpload {
+    padding: 250px;
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 0 0 3px black;
+}
+
+.contact {
+    padding: 250px;
+    background-image: url("contactImage.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#contact {
+    padding: 20px;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    border-radius: 50px;
+    border: 1px solid white;
+    box-shadow: 0 0 8px black;
+    text-shadow: 3px 3px 3px black;
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.6), rgba(16, 124, 187, 0.8));
+}
+
+#contactBtn {
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    border: 1px solid white;
+    box-shadow: 0 0 3px black;
+    border-radius: 5px;
+    background-image: linear-gradient(#38b6ff, #88d1fc, #107cbb);
+    transition: all 0.3s ease;
+}
+
+#contactBtn:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 16px #38b6ff;
+    background-image: linear-gradient(#88d1fc, #107cbb, #38b6ff);
+}
+
+#contactBtn:active {
+    background-image: linear-gradient(#38b6ff, #107cbb);
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    background-color: #38b6ff;
+    text-shadow: 0 0 5px black;
+}
+
+@media (max-width: 768px) {
+    #headingTitle {
+        font-size: 36px;
+    }
+
+    .heading, .about, .contact {
+        padding: 50px;
+    }
+
+    #logo {
+        width: 50px;
+        margin: 5px;
+    }
+
+    #btn {
+        font-size: 14px;
+        margin: 5px 0;
+        padding: 8px;
+    }
+
+    #aboutFlexDiv {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #aboutText {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    #logoAbout {
+        width: 150px;
+        height: 150px;
+    }
+
+    .howToUpload {
+        font-size: 18px;
+        padding: 50px;
+    }
+}
