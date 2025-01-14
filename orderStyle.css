@@ -203,4 +203,7 @@ audio::-webkit-media-controls-play-button:active{
   .orderProduct{
     width: 300px;
   }
+  audio{
+    transform: scale(1);
+  }
 }
