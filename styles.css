@@ -261,4 +261,8 @@ footer {
         font-size: 18px;
         padding: 50px;
     }
+
+    #contactTitle{
+        font-size: 22px;
+    }
 }
