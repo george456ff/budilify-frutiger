@@ -227,6 +227,8 @@ footer {
 
     .heading, .about, .contact {
         padding: 50px;
+        overflow-x: hidden;
+        background-attachment: scroll;
     }
 
     #logo {
