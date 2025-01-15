@@ -267,7 +267,7 @@ footer {
 }
 
 @media (max-width: 800px){
-    .contact{
-        padding: 50px;
+    #contact{
+        font-size: 22px;
     }
 }
