@@ -260,3 +260,9 @@ footer {
         padding: 50px;
     }
 }
+
+@media (max-width: 700px){
+    .heading{
+        background-attachment: scroll;
+    }
+}
