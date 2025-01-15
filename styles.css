@@ -220,44 +220,44 @@ footer {
     text-shadow: 0 0 5px black;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px){
     #headingTitle {
         font-size: 36px;
     }
 
-    .heading, .about, .contact {
+    .heading, .about, .contact{
         padding: 50px;
         overflow-x: hidden;
         background-attachment: scroll;
     }
 
-    #logo {
+    #logo{
         width: 50px;
         margin: 5px;
     }
 
-    #btn {
+    #btn{
         font-size: 14px;
         margin: 5px 0;
         padding: 8px;
     }
 
-    #aboutFlexDiv {
+    #aboutFlexDiv{
         flex-direction: column;
         align-items: center;
     }
 
-    #aboutText {
+    #aboutText{
         margin-right: 0;
         text-align: center;
     }
 
-    #logoAbout {
+    #logoAbout{
         width: 150px;
         height: 150px;
     }
 
-    .howToUpload {
+    .howToUpload{
         font-size: 18px;
         padding: 50px;
     }
