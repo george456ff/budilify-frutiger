@@ -265,3 +265,9 @@ footer {
         font-size: 22px;
     }
 }
+
+@media (max-width: 800px){
+    .contact{
+        padding: 50px;
+    }
+}
