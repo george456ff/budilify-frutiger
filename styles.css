@@ -267,7 +267,7 @@ footer {
     }
 }
 
-@media (max-width: 800px){
+@media (max-width: 1000px){
     #contactTitle{
         font-size: 32px;
     }
