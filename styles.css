@@ -227,6 +227,7 @@ footer {
 
     .heading, .about, .contact {
         padding: 50px;
+        background-attachment: scroll;
     }
 
     #logo {
@@ -258,11 +259,5 @@ footer {
     .howToUpload {
         font-size: 18px;
         padding: 50px;
-    }
-}
-
-@media (max-width: 700px){
-    .heading, .about{
-        background-attachment: scroll;
     }
 }
