@@ -225,7 +225,7 @@ footer {
         font-size: 36px;
     }
 
-    .heading, .about {
+    .heading, .about .contact{
         padding: 50px;
         background-attachment: scroll;
     }
